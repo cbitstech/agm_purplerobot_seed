@@ -1,7 +1,7 @@
 agm_purplerobot_seed
 ====================
 
-This application is intended to be used at the SLAM / Ortus / AGM Hackathon
+This application is intended to be used at theRSE AGM Hackathon at SLaM / Ortus 
 
 To make use of this application:
 
