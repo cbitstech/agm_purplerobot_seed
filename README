@@ -1,0 +1,48 @@
+#########################################################################
+# -- Author: Amos Folarin                                               #
+# -- Organisation: KCL/SLaM                                             #
+# -- Email: amosfolarin@gmail.com                                       #
+#########################################################################
+
+
+#------------------------------------------------------------------------
+# Slam Sleep Test Purple Robot App: This app works in tandem with the 
+# Purple Robot App.
+#------------------------------------------------------------------------
+
+Purple Robot App Settings:
+
+1) Delete the configuration url, this will reset your settings periodically, if not removed.
+* Settings >> Configuration URL --> [DELETE]
+
+2) If you wish to preserve your mobile data tariff, keep the upload to the Purple Robot server restricted to WiFi. The data will be stored on the phone and uploaded when WiFi access is available.
+* Settings >> General Data Upload Settings >> Only Use WiFi Connection --> [CHECK]
+
+3) Enable the adaptive Uploader
+* Settings >> Adaptive Uploader Setting >> Enable Adaptive Upload --> [CHECK]
+
+* other configurations will be set through the SLaM Sleep App.
+
+#------------------------------------------------------------------------
+# Simple option to build .apk for Android, and Install on phone
+#------------------------------------------------------------------------
+Register an Adobe account. http://build.phonegap.com
+Point this to the https://github.com/KHP-Informatics/slam_sleep_test
+The webapp will build using the "master" branch for various platforms (of which only the android one will presently work).
+
+Install, I use a dropbox folder to transfer the .apk to the phone. 
+Select the downloaded file and to install. 
+You will have to enable installation of apps from unknown sources, the option to do this will be presented during installation: 
+* Security >> unknown sources --> [CHECK]. 
+
+#------------------------------------------------------------------------
+# fitbit API KEYS
+# Aquire API Keys at http://dev.fitbit.com/ 
+#------------------------------------------------------------------------
+Slam Sleep App will use fitbit activity data, in conjunction with the GPS data feed and other signals taken from Purple Robot.
+I think this is fine for development. End users will have to use premium fitbit accounts.
+Then enable the Purple Robot app to read your fitbit data.
+* Settings >> Probe Configuration >> External Services Probes >> Fitbit Measurements
+* Tick all measures.
+
+then when directed to the fitbit portal, login. You will be notified on fitbit (website) Settings >> Applications that Purple Robot has read access to your  data

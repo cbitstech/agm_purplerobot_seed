@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AGM HACK App</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <script src="app/lib/jquery-2.1.0.min.js"></script>
+    <script src="app/lib/lodash.min.js"></script>
+    <script src="app/lib/PurpleRobotClient/purple-robot.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+        .btn {width:100%;}
+    </style>
+
+    <script>
+
+
+// UNCOMMENT THIS FOR PRODUCTION APPS--CONFIGURES THE IN DEVICE NATIVE LAUNCH LISTENER
+
+// $( document ).ready(function() {
+//     onLoad();
+// });
+
+// function onLoad() {
+//     document.addEventListener("deviceready", onDeviceReady, false);
+// }
+
+
+// function onDeviceReady() {
+//     document.addEventListener("resume", onResume, false);
+//     startApp();
+// }
+
+// // Handle the resume event
+// //
+// function onResume() {
+//     startApp();
+// }
+
+$( document ).ready(function() {
+    startApp();
+});
+
+function startApp () {
+
+    $(".jumbotron").html("<h3>AGM Hack App v0.0.1</h3>");
+
+    $("#main-form").on("submit", function(ev){
+        ev.preventDefault();
+        var data_to_save = {};
+        data_to_save.dad_role = $("#dad_role").val();
+        data_to_save.created_at = new Date();
+
+        //send the data to Purple Robot
+        var pr = new PurpleRobot();
+        pr.emitReading("survey_data",data_to_save);
+
+
+        var response_to_form_save = "<h2>Thanks!</h2>"
+        $(".container").html(response_to_form_save);
+});
+
+
+};
+</script>
+
+</head>
+
+<body>
+<div class="jumbotron"></div>
+
+<div class="container">
+    <div class="" >
+
+    </div>
+
+    <form role="form" id="main-form">
+        <div class="gps-group">
+
+            <div class="form-group">
+                <label>Who is your daddy and what does he do?</label><br/>
+                <input type="text" name="dad_role" placeholder="He sells insurance.">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
+
+</body>
+</html>

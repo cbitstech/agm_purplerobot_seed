@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: assets/www/app/lib/purple-robot-client.js
+SHA1-Digest: 3Q34jBTn0KaoEw/ero72Zz3GLBI=
+
+Name: assets/www/bootstrap/fonts/glyphicons-halflings-regular.woff
+SHA1-Digest: IgN6NFWRTlZi+lGllmd72zKeLFw=
+
+Name: assets/www/bootstrap/css/bootstrap-theme.css.map
+SHA1-Digest: yCHNeneInzkIcgUlt2xyElecxYY=
+
+Name: res/xml/config.xml
+SHA1-Digest: w6CdfjGHnpLJUMzr4EWDiZcOMpk=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: assets/www/app/lib/jquery-2.1.0.min.js
+SHA1-Digest: mIhCWMvbDZOfosXnT8esnlbYFw8=
+
+Name: resources.arsc
+SHA1-Digest: COjBnSbrqlXViYnXlncW8KTSTE0=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: CepliFtAgOUV73Bk6BbHeZHAdXs=
+
+Name: assets/www/phonegap.js
+SHA1-Digest: Ur0waEgp7U7BVioX3utWixRn7I8=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 2J9Tvy/YaxPRs/ZafKZe/EsVt/o=
+
+Name: AndroidManifest.xml
+SHA1-Digest: ZFG7uUkJ3YIi0egAuxl7kcr+J2s=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: Lw/SqxqQxDgeX1jWQ7pEzoJ873E=
+
+Name: assets/www/bootstrap/fonts/glyphicons-halflings-regular.eot
+SHA1-Digest: 86mjtgkTPD0h1rQqu/f0O9ER33I=
+
+Name: assets/www/bootstrap/js/bootstrap.js
+SHA1-Digest: /WB/hdWYUDsk13mXItsp/sTeHvY=
+
+Name: assets/www/bootstrap/css/bootstrap.min.css
+SHA1-Digest: 4tK4RunqcqGYVFijdIqrTgGo+zo=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: V29pfkn63ZKvWbMehv1gXLydfEg=
+
+Name: assets/www/bootstrap/css/bootstrap-theme.min.css
+SHA1-Digest: y5h6un/8WbuLs68kGyoDKv/CCU8=
+
+Name: assets/www/app/lib/lodash.min.js
+SHA1-Digest: tvPzV9CRQUFZPTmEL0QQ9tA9Pr8=
+
+Name: classes.dex
+SHA1-Digest: NLZpr7Wdniq0INirvwIQIkoopo4=
+
+Name: res/layout/main.xml
+SHA1-Digest: qUY1hJfSkz7IC0c6CmWuTS7aeJc=
+
+Name: assets/www/bootstrap/fonts/glyphicons-halflings-regular.ttf
+SHA1-Digest: qvr9wJQExKpER9fomKIYPe+cwbE=
+
+Name: assets/www/cordova.js
+SHA1-Digest: Ur0waEgp7U7BVioX3utWixRn7I8=
+
+Name: assets/www/bootstrap/fonts/glyphicons-halflings-regular.svg
+SHA1-Digest: PvkYWcvsFlrJffaVexdvaejWoE0=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: assets/www/bootstrap/js/bootstrap.min.js
+SHA1-Digest: WBTpG7Ynb03ot5Ucll8vGQoDl40=
+
+Name: res/drawable/icon.png
+SHA1-Digest: V29pfkn63ZKvWbMehv1gXLydfEg=
+
+Name: assets/www/bootstrap/css/bootstrap-theme.css
+SHA1-Digest: WNkoAJOwoUoXN69I5CGN8LvaSQM=
+
+Name: assets/www/bootstrap/css/bootstrap.css.map
+SHA1-Digest: YKgH627V2chmyDxlnyV/fFaXCiQ=
+
+Name: assets/www/bootstrap/css/bootstrap.css
+SHA1-Digest: +a7io4oTWi1j0w+byxJH3E+SfUs=
+
+Name: assets/www/index.html
+SHA1-Digest: gg8T02CWRfWDlzGGt684WK6Nvjo=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: 7k0R15Eowd7viwJeIN6gaJ1z0j0=
+
