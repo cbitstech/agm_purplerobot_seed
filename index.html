@@ -3,14 +3,25 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>AGM HACK App</title>
+
+    <!--an off-the-shelf styling library, for more info, check out: www.getbootstrap.com -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
+    <!--a JS DOM manipulation helper library, for more info, check out: www.jquery.com-->
     <script src="app/lib/jquery-2.1.0.min.js"></script>
+
+    <!--a JS array manipulation helper library, for more info, check out: www.lodash.com-->
     <script src="app/lib/lodash.min.js"></script>
+
+    <!--a PurpleRobot array manipulation helper library, for more info, check out the local docs in the folder-->
     <script src="app/lib/PurpleRobotClient/purple-robot.min.js"></script>
+
+    <!--an off-the-shelf styling library, for more info, check out: www.getbootstrap.com -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <style>
+        /* override styles */
+        input {width:100%;}
         .btn {width:100%;}
     </style>
 
@@ -39,7 +50,11 @@
 //     startApp();
 // }
 
+
+//JQuery listener that waits for the browser to have completed it's initial load
 $( document ).ready(function() {
+
+    //the "main()" of this app
     startApp();
 });
 
@@ -48,7 +63,11 @@ function startApp () {
     $(".jumbotron").html("<h3>AGM Hack App v0.0.1</h3>");
 
     $("#main-form").on("submit", function(ev){
+
+        //stop the automatic browser submit of the form
         ev.preventDefault();
+
+        //build an object to post to Purple Robot
         var data_to_save = {};
         data_to_save.dad_role = $("#dad_role").val();
         data_to_save.created_at = new Date();
@@ -57,7 +76,7 @@ function startApp () {
         var pr = new PurpleRobot();
         pr.emitReading("survey_data",data_to_save);
 
-
+        //response page to survey completion
         var response_to_form_save = "<h2>Thanks!</h2>"
         $(".container").html(response_to_form_save);
 });
